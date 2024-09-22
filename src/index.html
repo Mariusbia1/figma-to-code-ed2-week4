@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body style="background-image:url(./assets/bg.jpeg)" class="w-full h-screen mx-auto bg-cover bg-fixed  bg-no-repeat relative">
+    <nav class="flex items-center w-full top-0 left-0 fixed z-50 bg-black justify-between h-[100px] px-[5%]">
+        <a href="index.html"><img class="w-[130px] h-[96px]" src="./assets/logo.jpeg" alt="logo"></a>
+        <button class="bg-white px-6 p-3"><a href="#Formulaire">Log in</a></button>
+    </nav>
+    <div  class="relative mx-auto mt-4">   
+        <div class="text-white flex justify-center items-center p-4 px-auto h-[100vh] rounded-lg text-center">
+            <h1 class="text-xl lg:text-7xl font-extralight">Bienvenue sur notre site !</h1>
+           
+        </div>
+        <div class=" px-[5%] py-[5%] bg-black text-white text-sm sm:text-base lg:text-lg">
+            <p>Nous sommes ravis de vous accueillir et de vous offrir la possibilité de prendre soin de votre santé avec notre médecin unique et qualifié.
+                 Ici, vous pourrez facilement prendre rendez-vous pour une consultation adaptée à vos besoins. Notre équipe est dévouée à vous fournir un service
+                  de qualité et à répondre à toutes vos préoccupations médicales avec professionnalisme et bienveillance. N’hésitez pas à utiliser notre plateforme pour 
+                  planifier votre prochaine visite et bénéficier d’une prise en charge personnalisée.Nous sommes impatients de vous accompagner dans votre parcours de santé !</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mx-[5%] m-4">
+           <div class="bg-white rounded-lg shadow-md">
+                <img class="rounded-lg" src="./assets/one.jpeg" alt="">
+           </div>
+           <div class="bg-white rounded-lg shadow-md">
+                <img class="rounded-lg" src="./assets/two.jpeg" alt="">
+           </div>
+           <div class="bg-white rounded-lg shadow-md">
+                <img class="rounded-lg" src="./assets/three.jpeg" alt="">
+           </div>
+           <div class="bg-white rounded-lg  shadow-md">
+                <img class="rounded-lg" src="./assets/four.jpeg" alt="">
+           </div>
+           <div class="bg-white rounded-lg shadow-md">
+                <img class="rounded-lg" src="./assets/five.jpeg" alt="">
+           </div>
+           <div class="bg-white rounded-lg  shadow-md">
+                <img class="rounded-lg" src="./assets/six.jpeg" alt="">
+           </div>
+            
+        </div>
+        
+        <div id="Formulaire"  class=" p-[5%] h-[100vh] flex justify-center items-center">
+            
+            <form class="w-full mb-4" action="">
+                <h1 class="text-white text-lg font-bold">Formulaire d'inscription</h1>
+                <div class="w-full grid gap-2">
+                    <div  class="w-full grid grid-cols-1 md:grid-cols-2 gap-2 ">
+                        <input type="text" class="border p-2 " required placeholder="Veuillez entrer votre nom ici">
+                        <input type="text" class="border p-2 " required placeholder="Veuillez entrer votre prénom ici">
+                    </div>
+                    <div>
+                        <input type="email" class=" w-full p-2" required placeholder="Veuillez entrer votre adreese mail ici">
+                    </div>
+                    <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-2">
+                        <input type="text" class="border p-2 " required placeholder="Veuillez entrer votre pays ici">
+                        <input type="text" class="border p-2 " required placeholder="Veuillez entrer votre ville ici">
+                    </div>
+                    <div>
+                        <button type="submit" class="bg-white hover:bg-black hover:text-white w-full text-center p-2 text-lg">Envoyer</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+   </div>
+<!-- Ajout du footer -->
+<footer class="bg-black text-white py-8">
+    <div class="container w-full mx-auto px-[5%] grid grid-cols-1 md:grid-cols-2 gap-4 ">
+        <!-- Première colonne : Informations de contact -->
+        <div class="mb-4">
+            <h2 class="text-lg font-semibold mb-2">Contact</h2>
+            <ul class="space-y-2">
+                <li><a href="tel:+1234567890" class="hover:text-gray-400">Téléphone : +33 5 788 828 458</a></li>
+                <li><a href="mailto:info@example.com" class="hover:text-gray-400">Email : info@example.com</a></li>
+                <li><a href="#" class="hover:text-gray-400">Adresse : 123 Rue de la Santé, Paris</a></li>
+            </ul>
+        </div>
+        
+        <!-- Deuxième colonne : Réseaux sociaux -->
+        <div class="mb-4">
+            <h2 class="text-lg font-semibold mb-2">Suivez-nous</h2>
+            <ul class="">
+                <li><a href="#" class="hover:text-gray-400">Facebook</a></li>
+                <li><a href="#" class="hover:text-gray-400">Twitter</a></li>
+                <li><a href="#" class="hover:text-gray-400">Instagram</a></li>
+                <li><a href="#" class="hover:text-gray-400">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Section du bas de page -->
+    <div class="border-t border-gray-700 mt-8 pt-4 text-center">
+        <p>&copy; 2024 Votre Entreprise. Tous droits réservés.</p>
+    </div>
+</footer>
+
+  
+</body>
+</html>
